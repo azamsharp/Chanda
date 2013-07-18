@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--Donations View Controller - My Chanda-->
+        <!--Donations View Controller - Chanda-->
         <scene sceneID="E7h-UH-2Ye">
             <objects>
                 <tableViewController id="eUL-Wg-hrp" customClass="DonationsViewController" sceneMemberID="viewController">
@@ -109,7 +109,7 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Home" image="53-house.png" id="6dY-9Z-YIW"/>
-                    <navigationItem key="navigationItem" title="My Chanda" id="rXF-1G-t29">
+                    <navigationItem key="navigationItem" title="Chanda" id="rXF-1G-t29">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="eYg-th-S91">
                             <connections>
                                 <segue destination="uVI-J3-dSF" kind="modal" identifier="AddNewDonationSegue" id="QH9-dy-cxO"/>
@@ -625,6 +625,8 @@
         <class className="AddNewDonationViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/AddNewDonationViewController.h"/>
             <relationships>
+                <relationship kind="action" name="close:"/>
+                <relationship kind="action" name="save:"/>
                 <relationship kind="outlet" name="descriptionTextView" candidateClass="UITextView"/>
                 <relationship kind="outlet" name="donationNameTextField" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="pledgedAmountTextField" candidateClass="UITextField"/>

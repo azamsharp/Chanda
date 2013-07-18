@@ -53,7 +53,7 @@
 
 -(void) setup
 {
-    donationNames = [NSMutableArray arrayWithArray:@[@"Khudam Chanda",@"Tahreek-e-Jadeed Chanda",@"Salana Ijtema Chanda",@"Ansar Chanda"]];
+    donationNames = [NSMutableArray arrayWithArray:@[@"Daily Church Donation",@"Good Citizen Donation",@"Goodwill",@"Red Cross"]];
     
     [self.tableView reloadData];
 }
