@@ -3,7 +3,7 @@
 
 <b> Description </b>  
 
-My church reached out to me to build an app for people who want to keep track of their donations. The word "Chanda" means donations in Urdu the language. This is a simple app I put together during the weekend. 
+My church/mosque reached out to me to build an app for people who want to keep track of their donations. The word "Chanda" means donations in Urdu the language. This is a simple app I put together during the weekend. 
 
 - Ability to add a custom name for the donation
 - Ability to attach a receipt for the donation by picking the receipt either from the iPhone photo library or taking a new picture 
